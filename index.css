@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.topPart {
+  width: 100%;
+  outline: none;
+  background-color: darkred;
+  height: 5rem;
+}
+
+#menuLabel {
+  float: left;
+  margin-left: 2rem;
+  color: white;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+#aboutLabel {
+  float: left;
+  margin-left: 2rem;
+  color: white;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+#resetButton {
+  float: left;
+  margin-left: 2rem;
+  color: white;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+}
+
+#searchBar {
+  text-align: left;
+  background-color: #3d0609;
+  float: right;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 1rem;
+  border-style: none;
+  width: 15rem;
+  height: 2rem;
+  padding-left: 1rem;
+  color: white;
+}
+
+.listClass {
+  display: none;
+  width: 15rem;
+  background-color: #3d0609;
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 2.5%;
+  border-radius: 0.5rem;
+}
+
+.genListClass {
+  display: none;
+  width: 15rem;
+  background-color: #3d0609;
+  position: absolute;
+  margin-top: 7rem;
+  margin-left: 20%;
+  border-radius: 0.5rem;
+}
+
+#menuList {
+  float: left;
+  list-style: none;
+  font-size: 1rem;
+  color: white;
+  width: 15rem;
+}
+
+#genList {
+  float: left;
+  list-style: none;
+  font-size: 1rem;
+  color: white;
+  width: 15rem;
+}
+
+li {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+li:hover {
+  background-color: black;
+}
+
+.pokemonTableClass {
+  display: none;
+  float: left;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.singlePokemonTableClass {
+  margin-left: 10rem;
+  display: none;
+  float: left;
+}
+
+#singlePokemonTable {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  background-color: lightgray;
+}
+
+#pokemonTable {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  background-color: lightgray;
+}
+
+#firstRow {
+  background-color: darkred;
+  color: white;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+#nameOfPokemon {
+  margin-top: 2rem;
+  float: left;
+}
+
+#addedCellStat {
+  width: 15rem;
+  padding-left: 1rem;
+}
+
+#addedCellValue {
+  width: 10rem;
+}
+
+#statCell {
+  padding-left: 1rem;
+}
+
+.infoBox {
+  overflow: hidden;
+}
+
+#spriteImage {
+  overflow: hidden;
+  margin-left: 15rem;
+}
+
+#bst {
+  width: 5rem;
+}
+
+td {
+  width: 15rem;
+  height: 2rem;
+  border: none;
+}
+
+#abilitiesClass {
+  margin-top: 2rem;
+  width: 28rem;
+  margin-bottom: 2rem;
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+#abilityName {
+  margin-top: 1rem;
+}
+
+#spriteTableCell {
+  width: 4rem;
+  padding-left: 1rem;
+}
+
+#typeCell {
+  width: 7rem;
+}
+
+#typeList {
+  float: left;
+  list-style: none;
+  font-size: 1rem;
+  color: white;
+  width: 15rem;
+}
+
+#typeListClass {
+  display: none;
+  width: 15rem;
+  background-color: #3d0609;
+  position: absolute;
+  margin-top: 9rem;
+  margin-left: 20%;
+  border-radius: 0.5rem;
+}
+
+.aboutPage {
+  float: left;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem; 
+  margin-bottom: 2rem;
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+#githubText {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#titleOfList {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+#titleOfList:hover {
+  background-color: white;
+}
+
+.disclaimer {
+  list-style: none;
+}
+
+.disclaimer:hover {
+  background-color: white;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+}

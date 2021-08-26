@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="https://img.favpng.com/1/19/24/pok-mon-go-wallpaper-png-favpng-Wc253hn9mxiQM3cenUc5Ua95f_t.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <title>Pokemon Search Website</title>
+</head>
+<body>
+    <div class="topPart">
+        <p id="menuLabel">Quick Search</p>
+        <p id="aboutLabel">About</p>
+        <p id="resetButton">Reset Menus</p>
+        <div class="listClass">
+            <ul id="menuList">
+                <li id="legendariesSelection">Legendaries</li>
+                <li id="pseudo-legendariesSelection">Pseudo-legendaries</li>
+                <li id="generationSelection">Per Generation</li>
+                <li id="typeSelection">Per type</li>
+            </ul>
+        </div>
+        <div class="genListClass">
+            <ul id="genList">
+                <li class="gen">Gen I</li>
+                <li class="gen">Gen II</li>
+                <li class="gen">Gen III</li>
+                <li class="gen">Gen IV</li>
+                <li class="gen">Gen V</li>
+                <li class="gen">Gen VI</li>
+                <li class="gen">Gen VII</li>
+                <li class="gen">Gen VIII</li>
+            </ul>
+        </div>
+        <div id="typeListClass">
+        </div>
+        <input type="text" id="searchBar" placeholder="Search Pokemon">
+    </div>
+    <div class="everythingElse">
+        <div class="singlePokemonTableClass">
+            <div class="infoBox">
+                <h2 id="nameOfPokemon"></h2>
+                <img id="spriteImage">
+            </div>
+            <p id="typeBox"></p>
+            <table id="singlePokemonTable">
+                <tr id="firstRow">
+                    <td id="statCell">Stat</td>
+                    <td id="valueCell">Value</td>
+                </tr>
+            </table>
+            <div id="abilitiesClass">
+            </div>
+        </div>
+        <div class="pokemonTableClass">
+            <table id="pokemonTable">
+                <tr id="firstRow">
+                    <td id="spriteTableCell">Sprite</td>
+                    <td>Pokemon</td>
+                    <td id="typeCell">Type</td>
+                    <td id="bst">BST</td>
+                </tr>
+            </table>
+        </div>
+        <div class="aboutPage">
+            <h1>About</h1>
+            <p id="apiText">This is a very simple website to search Pokemon based around the PokeAPI which you can find 
+                <a href="https://pokeapi.co/">here</a>
+            </p>
+            <p id="githubText">The code used for this website can be found on my Github
+            <a href="https://github.com/Edwinhr716">page</a>
+            </p>
+            <h1>Disclaimer:</h1>
+            <ul id="disclaimerList">
+                <li class="disclaimer">This is a one page HTML website. This means that the back arrow of your browser won't take you back in the website</li>
+                <li class="disclaimer">Since the PokeAPI doesn't have filters for legendaries and pseudo-legendaries, the filtering is done by the website. Thus, those quick searches take a little bit to load. This also means that it only returns legendaries with a base stat total of over 579</li>
+                <li class="disclaimer">PokeAPI has some problems with GenVIII Pokemon, so the information page of some of them might not load</li>
+                <li class="disclaimer">I added a button to reset the menus because they sometimes glitch</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
